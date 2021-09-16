@@ -1,0 +1,44 @@
+body.light{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background:#333;
+    color: #777;
+}
+
+body.dark{
+    background: #777;
+    color: #333;
+}
+
+
+
+.container{
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.toggleTrack{
+    width: 80px;
+    height: 40px;
+    background-color: #777;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.toggler{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:white;
+}
+
+.toggleTrack.active{
+    background-color: white;
+}
+
+.toggler.active1{
+    background-color: #777;
+    margin-left: 40px;
+}
