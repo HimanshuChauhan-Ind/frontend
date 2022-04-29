@@ -1,0 +1,2 @@
+# LIST NOT ALIGNED IN THE TABLE TD 
+  Apply vertical-align: top; to the required <td>. This fixes the default feature of TD aligning the items at center.
